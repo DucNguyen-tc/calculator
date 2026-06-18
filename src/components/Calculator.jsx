@@ -29,9 +29,9 @@ function Calculator() {
   ];
 
   return (
-    <div className="w-full max-w-sm mx-auto p-2 sm:p-4">
+    <div className="w-full max-w-sm mx-auto bg-black p-4 rounded-3xl shadow-2xl border border-gray-800">
       <Display value={display} />
-      <div className="grid grid-cols-4 gap-3 auto-rows-[64px] sm:auto-rows-[72px] md:auto-rows-[80px]">
+      <div className="grid grid-cols-4 gap-3 auto-rows-[64px] sm:auto-rows-[72px] md:auto-rows-[80px] mt-4">
         {buttons.map((btn) => (
           <Button
             key={btn}

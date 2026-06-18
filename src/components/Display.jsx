@@ -1,8 +1,8 @@
 function Display({ value }) {
   return (
-    <div className="bg-gray-900 text-white rounded-2xl p-4 sm:p-6 min-h-[80px] sm:min-h-[120px] flex items-end justify-end">
-      <span className="text-2xl sm:text-4xl font-light break-all">
-        {value}
+    <div className="w-full pt-8 pb-4 px-3 flex flex-col items-end justify-end min-h-[100px] sm:min-h-[140px]">
+      <span className="text-4xl sm:text-5xl md:text-6xl font-light text-white break-all tracking-tight transition-all">
+        {value || "0"}
       </span>
     </div>
   );
